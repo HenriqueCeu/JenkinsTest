@@ -12,7 +12,7 @@ pipeline {
 
   agent {
     kubernetes {
-      inheritFrom 'sample-app'
+      label 'sample-app_master_4-td0mxp'
       defaultContainer 'jnlp'
       yaml """
 apiVersion: v1
